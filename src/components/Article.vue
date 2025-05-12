@@ -4,6 +4,8 @@
         <About />
         <Services />
         <Projects />
+        <Skills />
+        <Clients />
         <Contact />
     </div>
 </template>
@@ -14,6 +16,9 @@ import About from '@/components/About.vue'
 import Services from '@/components/Services.vue'
 import Projects from '@/components/Projects.vue'
 import Contact from '@/components/Contact.vue'
+import Skills from './ Skills.vue'
+import Clients from '@/components/Clients.vue'
+
 
 export default {
     components: {
@@ -21,7 +26,9 @@ export default {
         About,
         Services,
         Projects,
-        Contact
+        Contact,
+        Skills,
+        Clients
     }
 }
 

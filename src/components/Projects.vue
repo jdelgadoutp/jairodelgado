@@ -1,6 +1,6 @@
 <template>
     <!-- Proyectos -->
-    <section id="proyectos" class="py-14 px-6 max-w-6xl mx-auto">
+    <section id="proyectos" class="py-16 px-6 max-w-6xl mx-auto">
         <h2 class="text-2xl font-bold text-center mb-8 text-[#2269BA] dark:text-white">Proyectos</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
@@ -87,7 +87,7 @@
 
         </div>
     </section>
-    <div class="px-6 max-w-4xl mx-auto mt-4">
+    <div class="px-6 max-w-4xl mx-auto mt-2">
         <span class="flex items-center">
             <span class="h-px flex-1 bg-gradient-to-r from-transparent to-gray-300"></span>
 

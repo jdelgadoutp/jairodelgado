@@ -13,10 +13,10 @@ export default {
 </script>
 
 <template>
-    <div class="font-sans bg-gradient-to-r from-gray-200 via-[#e6edf4] to-neutral-100 text-gray-900 dark:text-gray-400 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
+    <div class="font-sans bg-gradient-to-r from-gray-300 via-[#bddaf8] to-neutral-50 text-gray-900 dark:text-gray-400 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
         <Navbar />
         <main>
-            <Article />
+            <router-view />
         </main>
         <Footer />
     </div>

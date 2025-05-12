@@ -1,6 +1,6 @@
 <template>
     <!-- Servicios -->
-    <section id="servicios" class="py-14 px-6">
+    <section id="servicios" class="py-16 px-6">
         <h2 class="text-2xl font-bold text-center mb-8 text-[#2269BA] dark:text-white">Servicios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <article
@@ -14,6 +14,7 @@
                     <a href="#">
                         <h3 class="mt-0.5 text-lg text-gray-900 dark:text-white">Integración y APIs</h3>
                     </a>
+
                     <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 text-justify dark:text-gray-400">
                         Conectamos tu ERP y sistemas externos con APIs seguras para optimizar procesos.
                     </p>
@@ -73,7 +74,7 @@
             </article>
         </div>
     </section>
-    <div class="px-6 max-w-4xl mx-auto mt-12">
+    <div class="px-6 max-w-4xl mx-auto mt-10">
         <span class="flex items-center">
             <span class="h-px flex-1 bg-gradient-to-r from-transparent to-gray-300"></span>
 
