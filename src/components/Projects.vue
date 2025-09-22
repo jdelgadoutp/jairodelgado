@@ -5,7 +5,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <article
-                class="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-xs dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
+                class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:border-gray-800 dark:bg-gray-900 shadow-xs transition hover:shadow-lg prose dark:shadow-gray-400/25">
                 <img alt="" src="@/assets/integracion.jpg" class="h-56 w-full object-cover" />
 
                 <div class="p-4 sm:p-6 prose">
@@ -15,7 +15,7 @@
                         </h3>
                     </a>
 
-                    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400s text-justify">
+                    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400 text-justify">
                         Este proyecto consiste en la integración del ERP Oceanic con una API personalizada para la
                         generación automática de certificados laborales. La solución permite emitir certificados
                         laborales de manera eficiente, asegurando la personalización, seguridad y trazabilidad de los
@@ -32,7 +32,7 @@
             </article>
 
             <article
-                class="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-xs dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
+                class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:border-gray-800 dark:bg-gray-900 shadow-xs transition hover:shadow-lg prose dark:shadow-gray-400/25">
                 <img alt="" src="@/assets/csv.jpg" class="h-56 w-full object-cover" />
 
                 <div class="p-4 sm:p-6 prose">
@@ -58,7 +58,7 @@
             </article>
 
             <article
-                class="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-xs dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
+                class="overflow-hidden rounded-lg border border-gray-100 bg-white dark:border-gray-800 dark:bg-gray-900 shadow-xs transition hover:shadow-lg prose dark:shadow-gray-400/25">
                 <img alt="" src="@/assets/gpon.jpg" class="h-56 w-full object-cover" />
 
                 <div class="p-4 sm:p-6 prose">

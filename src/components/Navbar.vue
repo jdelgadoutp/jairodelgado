@@ -4,8 +4,8 @@
         <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-2">
                 <a href="#">
-                    <img src="@/assets/logodark.png" alt="Logo JD" class="w-10 h-10 object-cover hidden dark:block" />
-                    <img src="@/assets/logo.png" alt="Logo JD" class="w-10 h-10 object-cover block dark:hidden" />
+                    <img src="@/assets/logodark.png" alt="Logo JD Engineer | Jairo Andrés Delgado López" class="w-10 h-10 object-cover hidden dark:block" />
+                    <img src="@/assets/logo.png" alt="Logo JD Engineer | Jairo Andrés Delgado López" class="w-10 h-10 object-cover block dark:hidden" />
                 </a>  
                 <span class="text-lg font-bold dark:text-white"><span class="text-[#2269BA]">J</span>D Engineer</span>
             </div>

@@ -230,8 +230,7 @@
         </div>
     </footer>
 </template>
-
-<script setup>
+< <script setup>
 import { ref } from 'vue'
 
 const email = ref('')
@@ -244,4 +243,4 @@ const suscribir = () => {
     console.log('Correo registrado:', email.value)
     // Aquí puedes enviar el correo a un servidor, API, etc.
 }
-</script>
+    </script>

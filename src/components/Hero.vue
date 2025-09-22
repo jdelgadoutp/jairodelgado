@@ -11,14 +11,7 @@
                 </h1>
 
                 <p class="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed text-justify dark:text-gray-400">
-                    Soy un consultor especializado en integrar sistemas empresariales, automatizar procesos críticos
-                    y
-                    asegurar
-                    el cumplimiento normativo con herramientas tecnológicas. Con experiencia en proyectos con
-                    entidades del
-                    Estado, bancos y ERPs de terceros, entrego soluciones confiables, escalables y alineadas con las
-                    necesidades
-                    reales del negocio.
+                    Impulsa la eficiencia de tu empresa con integración de sistemas, automatización y transformación digital. Soluciones IT a medida para tu negocio.
                 </p>
 
                 <div class="mt-4 flex gap-4 sm:mt-6">

@@ -16,7 +16,7 @@
                         <p class="text-[#2269BA] hover:underline dark:text-gray-400">🌐 www.jairodelgado.com</p>
                     </div>
                 </section>
-                <a :href="`https://api.whatsapp.com/send?phone=573136456892&text=Hola%20Jairo!%20Quiero%20hablar%20contigo%20sobre%20un%20proyecto.`"
+                <!--  <a :href="`https://api.whatsapp.com/send?phone=573136456892&text=Hola%20Jairo!%20Quiero%20hablar%20contigo%20sobre%20un%20proyecto.`"
                     class="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2 z-50"
                     target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@
                3.57-2.442-.763c-.531-.165-.542-.531.11-.787l9.533-3.677c.44-.165.826.1.684.787z" />
                     </svg>
                     Telegram
-                </a>
+                </a> -->
             </div>
         </div>
     </section>

@@ -7,7 +7,7 @@
                 <!-- Duplicamos imágenes para efecto infinito -->
                 <template v-for="n in 2">
                     <img v-for="(image, index) in images" :key="`${n}-${index}`" :src="image" alt="Client Image"
-                        class="w-64 h-64 object-contain dark:bg-slate-300 p-4 transition-transform hover:scale-105 duration-300 rounded-r-4xl" />
+                        class="w-64 h-64 object-contain dark:bg-gray-200 p-4 transition-transform hover:scale-105 duration-300 rounded-r-4xl" />
                 </template>
             </div>
         </div>
@@ -22,21 +22,52 @@
 </template>
 
 <script>
+
+import Megamedicas from '@/assets/clients/megamedicas.png'
+import Ssai from '@/assets/clients/ssai.png'
+import Gaviota from '@/assets/clients/gaviota.png'
+import LogoAsservi from '@/assets/clients/logoasservi.png'
+import LogoSalgari from '@/assets/clients/logosalgari.png'
+import Bendita from '@/assets/clients/bendita.png'
+import Mayoristas from '@/assets/clients/mayoristas.png'
+import Surtigranos from '@/assets/clients/surtigranos.png'
+import Dcolfarma from '@/assets/clients/dcolfarma.png'
+import Medical from '@/assets/clients/medical.png'
+import Sonrie from '@/assets/clients/sonrie.png'
+import Uniity from '@/assets/clients/uniity.png'
+import Poleas from '@/assets/clients/poleas.png'
+import Saman from '@/assets/clients/saman.png'
+import Abassto from '@/assets/clients/abassto.png'
+import Cimder from '@/assets/clients/cimder.png'
+import Jaibana from '@/assets/clients/jaibana.png'
+import Estaciones from '@/assets/clients/estaciones.webp'
+
 export default {
     name: "Clientes",
     data() {
         return {
             images: [
-                "src/assets/clients/megamedicas.png",
-                "src/assets/clients/ssai.png",
-                "src/assets/clients/gaviota.png",
-                "src/assets/clients/logoasservi.png",
-                "src/assets/clients/logosalgari.png",
-                "src/assets/clients/bendita.png",
-                // agrega más imágenes aquí
-            ],
+                Megamedicas,
+                Dcolfarma,
+                Medical, 
+                Sonrie, 
+                Ssai, 
+                Gaviota, 
+                LogoAsservi, 
+                Uniity, 
+                LogoSalgari, 
+                Bendita, 
+                Mayoristas, 
+                Surtigranos, 
+                Abassto, 
+                Poleas, 
+                Saman,
+                Cimder,
+                Jaibana,
+                Estaciones
+            ]
         };
-    },
+    }
 };
 </script>
 
